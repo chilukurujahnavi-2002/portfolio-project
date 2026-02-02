@@ -293,3 +293,18 @@ nav a{
     transform: translateY(-2px);
     box-shadow: 0px 0px 10px rgba(255, 191, 0, 0.5);
 }
+.project-links {
+    margin-top: 10px;
+}
+
+.project-links img {
+    height: 24px;
+    width: 24px;
+    filter: grayscale(1) invert(0.7);
+    transition: all 0.3s ease;
+}
+
+.project-links img:hover {
+    filter: grayscale(0) invert(0);
+    transform: scale(1.1);
+}
